@@ -1,0 +1,112 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.app {
+  padding: 20px;
+}
+
+.container-fluid{
+  background: linear-gradient(to bottom, rgb(32, 148, 127), rgb(20, 131, 110));
+}
+
+.container{
+  border-radius: 20px;
+  background-color: rgb(19, 80, 186, 0.5);
+  box-shadow: 0 0 10px rgba(23, 109, 230, 0.8), 0 0 12px rgba(0, 0, 0, 0.6);
+  color: rgb(240, 240, 240);   
+}
+
+.container label{
+  font-size: 1.2em;  
+}
+
+.player-form{
+  width: 40%;
+}
+
+.bg-custom-white{
+  background-color: rgb(233, 223, 223);
+  color: rgb(23, 22, 22);
+}
+
+.info:first-of-type{
+  font-size: 1.6em;
+} 
+
+.info{
+  font-size: 1.2em;
+}
+
+.title{
+  font-size: 3em;
+}
+
+span{
+  font-weight: bold;
+}
+
+.board{
+  width: 400px;
+  margin: auto;
+
+}
+
+.box{
+  width: 130px;
+  height: 130px;
+  font-size: 3em;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+
+@media (max-width: 900px) {
+
+  .info:first-of-type{
+    font-size: 1.2em;
+  } 
+  
+  .info{
+    font-size: 0.8em;
+  }
+  
+  .title{
+    font-size: 2em;
+  }
+
+  .board{
+    width: 260px;
+  }
+
+  .box {
+    width: 80px;
+    height: 80px;
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .info:first-of-type{
+    font-size: 0.8em;
+  } 
+  
+  .info{
+    font-size: 0.5em;
+  }
+  
+  .title{
+    font-size: 1.2em;
+  }
+
+  .board{
+    width: 200px;
+  }
+
+  .box {
+    width: 60px;
+    height: 60px;
+    font-size: 1.2em;
+  }
+}
